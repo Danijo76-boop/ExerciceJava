@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="907.0" prefWidth="1221.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.TransactionController">
+   <children>
+      <Text layoutX="31.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero Compte">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Text>
+      <Text layoutX="851.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solde">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Text>
+      <RadioButton layoutX="356.0" layoutY="129.0" mnemonicParsing="false" prefWidth="132.0" text="Dépot">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="687.0" layoutY="129.0" mnemonicParsing="false" text="Retrait">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></RadioButton>
+      <Text layoutX="31.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Code :" wrappingWidth="54.00000059604645">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="572.0" layoutY="198.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="42.0" style="-fx-background-color: #3CEB55;" text="ok" />
+      <TextField layoutX="160.0" layoutY="198.0" prefHeight="37.0" prefWidth="405.0" />
+      <Text layoutX="31.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NCI :" wrappingWidth="37.06788098812103">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="160.0" layoutY="325.0" prefHeight="37.0" prefWidth="405.0" />
+      <Text layoutX="31.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom et Prenom :" wrappingWidth="122.32810258865356">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="160.0" layoutY="387.0" prefHeight="37.0" prefWidth="405.0" />
+      <Text layoutX="31.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telephone" wrappingWidth="84.6708984375">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="160.0" layoutY="449.0" prefHeight="37.0" prefWidth="405.0" />
+      <Text layoutX="173.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donnée Envoyeur" wrappingWidth="166.00000059604645">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="31.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NCI :" wrappingWidth="37.06788098812103">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="160.0" layoutY="578.0" prefHeight="37.0" prefWidth="405.0" />
+      <Text layoutX="31.0" layoutY="659.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom et Prenom :" wrappingWidth="122.32810258865356">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="160.0" layoutY="640.0" prefHeight="37.0" prefWidth="405.0" />
+      <Text layoutX="31.0" layoutY="726.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telephone" wrappingWidth="84.6708984375">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="160.0" layoutY="702.0" prefHeight="37.0" prefWidth="405.0" />
+      <Text layoutX="173.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donnée Bénéficiare" wrappingWidth="166.00000059604645">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="631.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Montant" wrappingWidth="63.06788098812103">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="713.0" layoutY="325.0" prefHeight="37.0" prefWidth="405.0" />
+      <Text layoutX="726.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donnée Envoyeur" wrappingWidth="166.00000059604645">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="1018.0" layoutY="372.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="100.0" style="-fx-background-color: #3CEB55;" text="Valider" />
+      <ScrollPane layoutX="606.0" layoutY="427.0" prefHeight="441.0" prefWidth="595.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="432.0" prefWidth="194.0">
+               <children>
+                  <TableView layoutX="37.0" layoutY="123.0" prefHeight="303.0" prefWidth="529.0">
+                    <columns>
+                      <TableColumn prefWidth="265.0" text="C1" />
+                      <TableColumn prefWidth="263.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Text layoutX="826.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste des Transactions" wrappingWidth="172.06788098812103">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Accordion />
+      <Accordion />
+   </children>
+</AnchorPane>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="876.0" prefWidth="1221.0" style="-fx-background-color: AF57EB;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.DashboardController">
+   <children>
+      <Text fill="WHITE" layoutX="45.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom et Prenom :">
+         <font>
+            <Font name="Calibri Bold Italic" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="45.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil :">
+         <font>
+            <Font name="Calibri Bold Italic" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="43.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+         <font>
+            <Font name="Calibri Bold Italic" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transaction">
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="83.0" layoutY="259.0" mnemonicParsing="false" style="-fx-background-color: #3CEB55;" text="Creation Compte">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="83.0" layoutY="315.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: #3CEB55;" text="Faire Dépot">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="84.0" layoutY="373.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: #3CEB55;" text="Transaction">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Text fill="WHITE" layoutX="59.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Securite">
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="84.0" layoutY="514.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: #3CEB55;" text="Creation Compte">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="86.0" layoutY="577.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: #3CEB55;" text="Bloquer Compte">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="86.0" layoutY="640.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: #3CEB55;" text="Profil">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Text fill="WHITE" layoutX="380.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transfert d'Argent" wrappingWidth="522.5400390625">
+         <font>
+            <Font name="Calibri Bold Italic" size="63.0" />
+         </font>
+      </Text>
+      <Button layoutX="1041.0" layoutY="32.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: #3CEB55;" text="Deconnexion">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
